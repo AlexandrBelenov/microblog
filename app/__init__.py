@@ -1,4 +1,6 @@
 from flask import Flask
 
-app = Flask(__name__)
+# Creating of the Flask application object
+flask_microblog = Flask(__name__)
+
 from app import views

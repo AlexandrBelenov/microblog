@@ -1,7 +1,7 @@
-from app import app
+from app import flask_microblog
 
 
-@app.route("/")
-@app.route("/index")
+@flask_microblog.route("/")
+@flask_microblog.route("/index")
 def index():
     return "Hello, world!"

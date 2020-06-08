@@ -1,3 +1,3 @@
-from app import app
+from app import flask_microblog
 
-app.run(debug=True)
+flask_microblog.run(debug=True)

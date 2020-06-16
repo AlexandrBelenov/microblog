@@ -4,3 +4,4 @@ __pycache__
 db_repository/
 app.db
 os.path
+tmp
